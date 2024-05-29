@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Outfit, cursive;
+    margin: 130px 10px 30px 10px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-family: Outfit, cursive;
+    color: #463627;
+}
+
+p {
+    color: #2B3336;
+    font-family: "Noticia Text", cursive;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#name {
+    color: #5E7E8B;
+}
+
+#subscript {
+    font-family: "Exo 2", cursive;
+    margin: 0 10px 60px 10px;
+}
+
+#hero {
+    color: #C3AA8F;
+    background-color: #463627;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#keyboard {
+    height: 350px;
+    width: 100%;
+}
+
+.kb-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 15px 50px;
+}
+
+#keyboard > .kb-row > div {
+    height: 50px;
+    border-radius: 3px;
+}
+
+.special {
+    background-color: #5E7E8B;
+    width: 50px;
+}
+
+.key {
+    background-color: #C3AA8F;
+    width: 50px;
+}
+
+.backspace {
+    background-color: #C3AA8F;
+    width: 100px;
+}
+
+.tab {
+    background-color: #C3AA8F;
+    width: 75px;
+}
+
+.backslash {
+    background-color: #C3AA8F;
+    width: 75px;
+}
+
+.caps {
+    background-color: #C3AA8F;
+    width: 87.5px;
+}
+
+.enter {
+    background-color: #C3AA8F;
+    width: 112.5px;
+}
+
+.shift1 {
+    background-color: #C3AA8F;
+    width: 112.5px;
+}
+
+.shift2 {
+    background-color: #C3AA8F;
+    width: 137.5px;
+}
+
+.ctrl {
+    background-color: #C3AA8F;
+    width: 62.5px;
+}
+
+.windows {
+    background-color: #C3AA8F;
+    width: 62.5px;
+}
+
+.alt {
+    background-color: #C3AA8F;
+    width: 62.5px;
+}
+
+.space {
+    background-color: #C3AA8F;
+    width: 312.5px;
+}
+
+.fn {
+    background-color: #C3AA8F;
+    width: 62.5px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#about > p {
+    text-align: center;
+    width: 30%;
+    margin: 0;
+}
+
+#pfp {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#subtitle {
+    font-family: "Exo 2", cursive;
+    margin: 15px 0 15px 0px;
+    color: #5E7E8B;
+}
+
+#divider {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#divider > img {
+    height: 10px;
+}
+
+#my-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#my-skills > #subtitle {
+    margin: 0;
+}
+
+#skills {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+#skill-card {
+    max-width: 500px;
+    padding-top: 20px;
+    margin: 0 20px;
+}
+
+#skill-card > img {
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+
+#skill-card > h3 {
+    margin: 5px 0 10px 0;
+}
+
+#reach-out {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0;
+}
+
+#reach-out > #subtitle {
+    margin-top: 0;
+}
+
+#reach-out > p {
+    max-width: 650px;
+    padding: 0 20px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+#button {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #5E7E8B, #2B3336);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+
+}
+
+#footer {
+    height: 200px;
+    background-color: #2B3336;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#links > a {
+    color: #5E7E8B;
+    margin: 0 20px;
+    font-size: 1.25rem;
+}
+
+#copyright {
+    color: #5E7E8B;
+    font-size: 1rem;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    #skills {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    #keyboard {
+        height: 262.5px;
+    }
+    
+    .kb-row {
+        margin-bottom: 11.25px;
+    margin: 0px 37.5px 11.25px 37.5px;
+    }
+    
+    #keyboard > .kb-row > div {
+        height: 37.5px;
+        border-radius: 2.25px;
+    }
+    
+    .special {
+        width: 37.5px;
+    }
+    
+    .key {
+        width: 37.5px;
+    }
+    
+    .backspace {
+        width: 75px;
+    }
+    
+    .tab {
+        width: 56.25px;
+    }
+    
+    .backslash {
+        width: 56.25px;
+    }
+    
+    .caps {
+        width: 65.625px;
+    }
+    
+    .enter {
+        width: 84.375px;
+    }
+    
+    .shift1 {
+        width: 84.375px;
+    }
+    
+    .shift2 {
+        width: 103.125px;
+    }
+    
+    .ctrl {
+        width: 46.875px;
+    }
+    
+    .windows {
+        width: 46.875px;
+    }
+    
+    .alt {
+        width: 46.875px;
+    }
+    
+    .space {
+        width: 234.375px;
+    }
+    
+    .fn {
+        width: 46.875px;
+    }
+}
